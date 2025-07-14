@@ -24,7 +24,6 @@ When("Clicks on list mode", () => {
   watchesActions.clicksListMode();
 });
 let cnt = 0;
-let addedWatchNames = [];
 
 When("Adds all watches with a price greater than 55 to the cart", () => {
   cy.get(".price-wrapper .price").then(($price) => {
